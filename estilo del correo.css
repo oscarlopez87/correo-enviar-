@@ -1,0 +1,51 @@
+body { 
+background-image: url(email.png);
+background-size: 100vw 100vh;
+background-attachment: fixed;
+margin: 0;
+font-family: monospace;
+
+}
+
+form{
+
+    width: 450px;
+    margin:  auto;
+    background: 219, 172, 72 ;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: izquierdo;
+
+}
+
+h2{
+    color: #13100F ;
+    text-align: center;
+    margin: 0;
+    frot-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 400px;
+}
+#boton{
+    background: #FA8072;
+    color: #13100F ;
+    padding: 20px;
+}
+#boton:hover{
+    cirsor: pointer;
+
+}
